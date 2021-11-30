@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: operators-config
+  name: smesh-config
   namespace: openshift-gitops
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: manifests/02-operators
+    path: manifests/03-smesh-config
     repoURL: https://github.com/jameswilkins/gitops-home
     targetRevision: HEAD
   syncPolicy:
