@@ -3,6 +3,9 @@ kind: Subscription
 metadata:
   name: smesh-sub
   namespace: openshift-operators 
+  annotations:
+    argocd.argoproj.io/sync-wave: "4"
+
 spec:
   channel: stable
   name: servicemeshoperator

@@ -3,6 +3,9 @@ kind: Subscription
 metadata:
   name: kiali-sub
   namespace: openshift-operators 
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+
 spec:
   channel: stable
   name: kiali-ossm
