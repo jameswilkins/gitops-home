@@ -4,4 +4,18 @@ metadata:
   name: "istio-system"
   annotations:
     argocd.argoproj.io/sync-wave: "31"
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: "bookinfo"
+  annotations:
+    argocd.argoproj.io/sync-wave: "31"
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: "smesh-demo"
+  annotations:
+    argocd.argoproj.io/sync-wave: "31"
 
