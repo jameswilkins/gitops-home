@@ -1,0 +1,13 @@
+apiVersion: maistra.io/v1
+kind: ServiceMeshMemberRoll
+metadata:
+  name: default
+  namespace: istio-system
+  annotations:
+    argocd.argoproj.io/sync-wave: "33"
+spec:
+  members:
+    # a list of projects joined into the service mesh
+    - bookinfo
+    - smesh-demo
+
