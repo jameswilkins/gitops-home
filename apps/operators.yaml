@@ -12,6 +12,6 @@ spec:
   project: default
   source:
     path: manifests/02-operators
-    repoURL: https://gitlab.com/jameswilkins/gitops-home
+    repoURL: https://github.com/jameswilkins/gitops-home
     targetRevision: HEAD
 
