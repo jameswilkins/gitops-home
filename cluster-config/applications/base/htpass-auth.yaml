@@ -10,7 +10,7 @@ spec:
   source:
     path: manifests/auth-htpass/base
     repoURL: https://github.com/jameswilkins/gitops-home
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
