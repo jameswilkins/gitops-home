@@ -4,7 +4,7 @@ metadata:
   name: elasticsearch-sub
   namespace: openshift-operators 
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    argocd.argoproj.io/sync-wave: "21"
 spec:
   channel: stable
   name: elasticsearch-operator

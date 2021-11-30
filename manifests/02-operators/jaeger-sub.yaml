@@ -4,7 +4,7 @@ metadata:
   name: jaegar-sub
   namespace: openshift-operators 
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "22"
 spec:
   channel: stable
   name: jaeger-product
