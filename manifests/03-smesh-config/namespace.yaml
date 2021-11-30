@@ -2,4 +2,6 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: "istio-system"
+  annotations:
+    argocd.argoproj.io/sync-wave: "31"
 

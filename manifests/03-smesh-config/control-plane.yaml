@@ -3,6 +3,9 @@ kind: ServiceMeshControlPlane
 metadata:
   name: smesh-controlplane
   namespace:  istio-system
+  annotations:
+    argocd.argoproj.io/sync-wave: "32"
+
 spec:
   istio:
     global:
