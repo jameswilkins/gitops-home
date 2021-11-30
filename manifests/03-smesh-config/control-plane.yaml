@@ -2,8 +2,8 @@ apiVersion: maistra.io/v1
 kind: ServiceMeshControlPlane
 metadata:
   name: smesh-controlplane
+  namespace:  istio-system
 spec:
-
   istio:
     global:
       proxy:
